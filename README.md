@@ -1,6 +1,6 @@
-# CIO
+# GIO
 
-*Companion-Input-Output*
+*GOOM-Input-Output*
 
 The scope of this project is to create a system that can integrate onto a raspberry pi, and recognize the user's speech, store it as a python variable, and repeat the user's speech back to the user. The system will also be able to recognize the user's speech and perform a specific action based on the user's speech. 
 
