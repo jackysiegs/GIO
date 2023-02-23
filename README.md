@@ -1,6 +1,8 @@
-# CIO
+# GIO
 
-*Companion-Input-Output*
+*GOOM-Input-Output*
+
+## This is a fork of the original CIO with the goal of optimizing the codes runtime and providing debugging features. I have added other tools such as one that identifies audio devices present on a given computer using pyAudio. ##
 
 The scope of this project is to create a system that can integrate onto a raspberry pi, and recognize the user's speech, store it as a python variable, and repeat the user's speech back to the user. The system will also be able to recognize the user's speech and perform a specific action based on the user's speech. 
 
