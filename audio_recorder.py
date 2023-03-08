@@ -32,9 +32,9 @@ class AudioRecorder:
             # Initialize PyAudio
             audio = pyaudio.PyAudio()
 
-            # Open microphone stream #!! Delete input_device-input before merging !!#
+            # Open microphone stream
             stream = audio.open(format=self.format, channels=self.channels,
-                                rate=self.rate, input=True, frames_per_buffer=self.chunk, input_device_index= 2)
+                                rate=self.rate, input=True, frames_per_buffer=self.chunk)
 
             # Record audio while sound is present
             silence_duration = 0
