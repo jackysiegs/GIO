@@ -13,6 +13,8 @@ Deepgram offers 12,000 minutes or 200 hours of free transciption (which I've bee
 
 run ```python3 find_microphones.py``` to find the PyAudio index value of a desried microphone on your machine.
 
+requirements.txt is updated to install with Deepgram instead of Whisper.
+
 ## Orignal Mission Statement
 The scope of this project is to create a system that can integrate onto a raspberry pi, and recognize the user's speech, store it as a python variable, and repeat the user's speech back to the user. The system will also be able to recognize the user's speech and perform a specific action based on the user's speech. 
 
