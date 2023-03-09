@@ -4,6 +4,16 @@
 
 ## This is a fork of the original CIO with the goal of optimizing the code's runtime and providing debugging features. I have added other tools such as one that identifies audio devices present on a given computer using pyAudio. ##
 
+## Updates to fork
+
+I have swapepd the Whisper Framework with a popular framework called Deepgram which offer many benefits, one being WAY faster transcription of audio files.
+Deepgram also offers the uttility to trasncribe from live online sources using URL.
+
+Deepgram offers 12,000 minutes or 200 hours of free transciption (which I've been using for this testing) after that pricing starts at $0.0145/min for the enhanced models and $0.0125/min for the base models. This framework also allows for the transcription of live web resources via URL. Further pricing information can be found here: https://deepgram.com/pricing/
+
+run $python3 find_microphones.py to find the PyAudio index value of a desried microphone on your machine.
+
+## Orignal Mission Statement
 The scope of this project is to create a system that can integrate onto a raspberry pi, and recognize the user's speech, store it as a python variable, and repeat the user's speech back to the user. The system will also be able to recognize the user's speech and perform a specific action based on the user's speech. 
 
 ## Setup
@@ -32,6 +42,8 @@ If you encounter any issues with the project, try the following:
 
 - Check the project's documentation for any additional troubleshooting steps.
 
+- Make sure to input a Deepgram API Key into transcriber.py
+
 ## Documentation
 
 - [gTTS](https://pypi.org/project/gTTS/)
@@ -41,4 +53,4 @@ If you encounter any issues with the project, try the following:
 - [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/)
 - [pydub](https://pypi.org/project/pydub/)
 - [wave](https://docs.python.org/3/library/wave.html)
-- [whisper](https://github.com/openai/whisper)
+- [Deepgram](https://developers.deepgram.com/sdks-tools/sdks/python-sdk/)
