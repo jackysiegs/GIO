@@ -22,7 +22,7 @@ The scope of this project is to create a system that can integrate onto a raspbe
 
 To set up the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/yourproject.git`
+1. Clone the repository: `git clone https://github.com/jackysiegs/GIO.git`
 
 2. Create and activate a virtual environment in CLI (Unix)):
 
